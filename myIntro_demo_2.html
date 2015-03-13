@@ -2,12 +2,53 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <!-- <script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-31900.js"></script> -->
+  <style type="text/css">
+  body {
+    font-family: verdana, Times New Roman, 標楷體, 新細明體, 微軟正黑體;
+    padding: 0px 100px;
+  }
+  body > div {
+    height: 600px;
+    padding: 0 180px;
+    position: relative;
+    top: 50%;
+    transform: translateY(35%);
+  }
+  body > p::after {
+    content: " - NEXT PAGE -";
+    color: gray;
+  }
+  #title {
+    font-size: 100px;
+    color: #f00;
+    text-align: center;
+  }
+  .description {
+    font-size: 30px;
+  }
+  .description > div {
+    width: 100%;
+    text-align: center;
+    font: 50px bold;
+  }
+  .other {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  </style>
 </head>
 <body>
-  <div>Mak</div>
-  <div>現為 Hiiir時間軸 主任工程師，實務專案開發流程、Web 全端 AngularJS + NodeJS 開發，特殊能力點：開發 Android App、Unity3D 體感遊戲、系統整合等。</div>
-  <div>對嶄新事物抱有高度好奇心，善於思考架構流程、解決問題、以及——「製造新問題」。</div>
-  <div>
+  <div id="title">Mak</div>
+  <p></p>
+  <div class="description">
+    <p>現為 Hiiir時間軸 主任工程師，</p>
+    <p>實務專案開發流程、Web 全端 AngularJS + NodeJS 開發，</p>
+    <p>特殊能力點：Android App、Unity3D + 體感、系統整合等。</p></div>
+  <p></p>
+  <div class="description">對嶄新事物抱有高度好奇心，善於思考架構流程、解決問題、以及——<div>「製造新問題」</div></div>
+  <p></p>
+  <div class="other">
     <ul>
       <li>口號：跳脫框架；</li>
       <li>專長：出鬼點子；</li>
